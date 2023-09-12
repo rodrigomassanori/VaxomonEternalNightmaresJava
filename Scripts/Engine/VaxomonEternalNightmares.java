@@ -1,9 +1,17 @@
 package Engine;
 
 import window.Window;
+import Render.Render;
 
 public class VaxomonEternalNightmares implements IGameLogic
 {
+    final Render render;
+
+    public VaxomonEternalNightmares()
+    {
+        render = new Render();
+    }
+
     @Override
     public void Init(Window window) throws Exception 
     {
