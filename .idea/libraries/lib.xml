@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/lwjgl-opengl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/joml-1.10.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lwjgl-natives-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lwjgl-natives-macos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lwjgl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lwjgl-bgfx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lwjgl-openal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slick.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lwjgl-natives-windows-x86.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lwjgl-glfw.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lwjgl-natives-windows.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
