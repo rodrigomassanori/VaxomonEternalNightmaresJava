@@ -1,0 +1,19 @@
+{
+    "java.project.sourcePaths": [
+        "Scripts"
+    ],
+    "java.project.outputPath": "build",
+    "java.project.referencedLibraries": [
+        "lib/*.jar"
+    ],
+    "cSpell.words": [
+        "Excp",
+        "Framebuffer",
+        "glfw",
+        "lwjgl",
+        "opengl",
+        "Setv",
+        "Vaxomon",
+        "vidmode"
+    ]
+}
