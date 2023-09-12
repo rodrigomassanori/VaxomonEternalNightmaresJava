@@ -2,23 +2,31 @@ package Engine;
 
 public class Timer 
 {
-    public void Init() 
+    double LastLoopTime;
+
+    public void Init()
     {
-        
+        LastLoopTime = GetTime();
     }
 
-    public float GetElapsedTime() 
+    public double GetTime()
     {
-        return 0;
+        return System.nanoTime() / 1000000000.0;
     }
 
-    public float GetLastLoopTime() 
+    public float GetElapsedTime()
     {
-        return 0;
+        double Time = GetTime();
+
+        float ElapsedTime = (float) (Time - LastLoopTime);
+
+        LastLoopTime = Time;
+
+        return ElapsedTime;
     }
 
-    public double GetTime() 
+    public double GetLastLoopTime()
     {
-        return 0;
+        return LastLoopTime;
     }
 }
