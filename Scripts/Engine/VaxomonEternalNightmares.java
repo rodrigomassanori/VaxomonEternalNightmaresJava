@@ -15,7 +15,7 @@ public class VaxomonEternalNightmares implements IGameLogic
     @Override
     public void Init(Window window) throws Exception 
     {
-        throw new UnsupportedOperationException("Unimplemented method 'Init'");
+        render.Init(window);
     }
 
     @Override
