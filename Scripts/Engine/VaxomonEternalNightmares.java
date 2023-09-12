@@ -2,9 +2,12 @@ package Engine;
 
 import window.Window;
 import Render.Render;
+import static org.lwjgl.glfw.GLFW.*;
 
 public class VaxomonEternalNightmares implements IGameLogic
 {
+    int Direction;
+
     final Render render;
 
     public VaxomonEternalNightmares()
@@ -21,7 +24,20 @@ public class VaxomonEternalNightmares implements IGameLogic
     @Override
     public void Input(Window window) 
     {
-        throw new UnsupportedOperationException("Unimplemented method 'Input'");
+        if (window.IsKeyPressed(GLFW_KEY_W))
+        {
+            Direction = 1;
+        }
+
+        else if (window.IsKeyPressed(GLFW_KEY_S))
+        {
+            Direction = -1;
+        }
+
+        else
+        {
+            Direction = 0;
+        }
     }
 
     @Override
