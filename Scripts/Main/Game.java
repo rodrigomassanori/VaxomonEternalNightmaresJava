@@ -14,8 +14,7 @@ public class Game
 
             IGameLogic gameLogic = new VaxomonEternalNightmares();
 
-            GameEngine gameEngine = new GameEngine("Vaxomon Eternal Nightmares", 
-            1440, 960, Sync, gameLogic);
+            GameEngine gameEngine = new GameEngine("Vaxomon Eternal Nightmares", 1440, 960, Sync, gameLogic);
 
             gameEngine.run();
         }
