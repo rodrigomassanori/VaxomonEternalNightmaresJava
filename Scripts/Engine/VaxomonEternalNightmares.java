@@ -10,6 +10,8 @@ public class VaxomonEternalNightmares implements IGameLogic
 
     final Render render;
 
+    float Color = 0.0f;
+
     public VaxomonEternalNightmares()
     {
         render = new Render();
@@ -43,18 +45,28 @@ public class VaxomonEternalNightmares implements IGameLogic
     @Override
     public void Update(float Interval) 
     {
-        throw new UnsupportedOperationException("Unimplemented method 'Update'");
+        Color += Direction * 0.01f;
+
+        if (Color > 1)
+        {
+            Color = 1.0f;
+        }
+
+        else if (Color < 0)
+        {
+            Color = 0.0f;
+        }
     }
 
     @Override
     public void Render(Window window) 
     {
-        throw new UnsupportedOperationException("Unimplemented method 'Render'");
+        window.setClearColor(Color, Color, Color, 0.0f);
     }
 
     @Override
     public void CleanUp() 
     {
-        throw new UnsupportedOperationException("Unimplemented method 'CleanUp'");
+        render.CleanUp();
     }
 }
