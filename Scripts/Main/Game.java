@@ -10,6 +10,7 @@ public class Game
     {
         try
         {
+
             boolean Sync = true;
 
             IGameLogic gameLogic = new VaxomonEternalNightmares();
