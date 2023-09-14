@@ -15,5 +15,6 @@
         "Setv",
         "Vaxomon",
         "vidmode"
-    ]
+    ],
+    "java.dependency.packagePresentation": "hierarchical"
 }
