@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
+<HEAD>
+
+</HEAD>
       <module fileurl="file://$PROJECT_DIR$/VaxomonEternalNightmares.iml" filepath="$PROJECT_DIR$/VaxomonEternalNightmares.iml" />
-=======
+
       <module fileurl="file://$PROJECT_DIR$/.idea/VaxomonEternalNightmaresJava.iml" filepath="$PROJECT_DIR$/.idea/VaxomonEternalNightmaresJava.iml" />
->>>>>>> 3f4d8796e3b150c599f04c49f601243cec03ddfd
     </modules>
   </component>
 </project>
